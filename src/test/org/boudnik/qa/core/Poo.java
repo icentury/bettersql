@@ -13,5 +13,5 @@ import org.boudnik.better.sql.*;
 @TABLE(8)
 public class Poo extends OBJ {
     @MANDATORY
-    public final REF<Foo> foo = new REF<Foo>(Foo.class);
+    public final REF<Foo> foo = new REF<>(Foo.class);
 }

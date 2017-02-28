@@ -22,7 +22,7 @@ public class Foo extends OBJ {
     public final INT age = new INT();
     public final INT income = new INT();
     @MANDATORY
-    public final CODEREF<Sex> sex = new CODEREF<Sex>(Sex.class);
+    public final CODEREF<Sex> sex = new CODEREF<>(Sex.class);
 
     public OBJ.ComparableFIELD[] getKey() {
         return new ComparableFIELD[]{name, sex};
